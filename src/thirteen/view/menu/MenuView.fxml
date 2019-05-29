@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<FlowPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thirteen.view.menu.MenuController">
+   <children>
+      <Pane fx:id="rootLayoutPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0">
+         <children>
+            <ImageView fitHeight="511.0" fitWidth="510.0" layoutX="-105.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/images/BackgroundForGame.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="87.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleClickStart" prefHeight="27.0" prefWidth="177.0" text="Start" />
+         </children>
+      </Pane>
+   </children>
+</FlowPane>

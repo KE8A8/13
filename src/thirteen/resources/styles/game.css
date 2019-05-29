@@ -1,0 +1,8 @@
+.tileLabel-{
+    -fx-font-family: 'Clear Sans Bold';
+    -fx-background-color: red;
+}
+
+.scene{
+    -fx-background-color: blue;
+}
